@@ -32,7 +32,12 @@ const include = [
 
   /*--- HTML ---*/
 
-
+  /* Tabs */
+  {% for tab in site.tabs %}
+	  {% if tab.menu != 'root' %}
+		'{{ tab.url }}',
+			{% endif %}	
+  {% endfor %}
   
   /*--- Icons ---*/
 
