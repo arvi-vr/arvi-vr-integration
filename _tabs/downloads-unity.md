@@ -16,6 +16,6 @@ Integration SDK Unity package.
 - Fixed player position message handling
 
 <hr>
-<button onclick="window.open('https://www.google.com/')" type="button" class="btn btn-dark btn-lg">Download</button>
-<button onclick="window.open('https://www.google.com/')" type="button" class="btn btn-dark btn-lg">Sources</button>
-<button onclick="window.open('https://www.google.com/')" type="button" class="btn btn-dark btn-lg">Archive</button>
+<button onclick="window.open('https://github.com/arvi-vr/unity-integration/releases/download/1.1.0/Integration.SDK.1.1.0.unitypackage')" type="button" class="btn btn-dark btn-lg">Download</button>
+<button onclick="window.open('https://github.com/arvi-vr/unity-integration')" type="button" class="btn btn-dark btn-lg">Sources</button>
+<button onclick="window.open('https://github.com/arvi-vr/unity-integration/releases')" type="button" class="btn btn-dark btn-lg">Archive</button>
