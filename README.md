@@ -1,2 +1,2 @@
 # Integration Guide
-This place contains documentation, code examples, plugins, etc. - everything you need to integrate games with the ARVI platform.
+This guide contains documentation, code examples, plugins, etc. - everything you need to integrate games with the ARVI platform.
