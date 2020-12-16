@@ -23,4 +23,4 @@ Utility for testing SDK integration. For more information see [TESTING]({{ '/tab
 - Fixed window caption drawing for DPI aware
 
 <hr>
-<button onclick="window.open('https://www.google.com/')" type="button" class="btn btn-dark btn-lg">Download</button>
+<button onclick="window.open('https://vrp.arvilab.com/storage/applications/3/cee1325e-f16a-4237-b92a-eda4d30803f5/versions/fd5e6e04-6ab8-4b11-a0d2-f21b4ac66f0b/files/5fda093a1069e/APITester.exe')" type="button" class="btn btn-dark btn-lg">Download</button>
