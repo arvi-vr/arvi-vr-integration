@@ -72,9 +72,6 @@ disqus:
 #
 theme_mode:   # [light|dark]
 
-# The CDN endpoint for website assets. Fill it if you have one.
-assets_cdn: ''
-
 # boolean type, the global switch for ToC in posts.
 toc: true
 
