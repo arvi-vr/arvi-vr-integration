@@ -7,7 +7,7 @@ tagline: Documentation and Downloads  # it will display as the sub-title
 description: >-                        # used by seo meta and the atom feed
   ARVI VR documentation describes the game integration process and our downloads will provide you with the required SDKs.
 
-# fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
+# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
 
 author: ARVI VR                  # change to your full name
@@ -70,7 +70,10 @@ disqus:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # <light|dark>
+theme_mode:   # [light|dark]
+
+# The CDN endpoint for website assets. Fill it if you have one.
+assets_cdn: ''
 
 # boolean type, the global switch for ToC in posts.
 toc: true
