@@ -27,9 +27,6 @@ You must fill the game fields:
 | **`Long description`** | A detailed description of the game in English. Maximum `4000` characters. |
 | **`Type`** <a name="game-type-field">| Content type: game or tutorial. |
 | **`Status`** <a name="game-status-field">| Game activity status. If the game is in the `Active` status, it is available to everyone, according to the distribution by location. If `Inactive` -- the game is not distributed and is displayed only for developer. |
-| **`Priority`** | Will be used in a future version of the platform. Default value: `100`. |
-| **`Download Attempts`** | Will be used in a future version of the platform. Default value: `3`. |
-| **`Can Use Low Space`** | Will be used in a future version of the platform. Default value: `OFF`. |
 | **`Key`** <a name="game-key"></a> | Game key. It is generated automatically for each game and is used by the developer when integrating the ARVI SDK. |
 
 For example, this is how these settings look for one of our games -- Archer.
