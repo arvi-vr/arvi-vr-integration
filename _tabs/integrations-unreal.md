@@ -163,7 +163,7 @@ void AExampleActor::BeginPlay()
 <img src="{{ '/assets/img/bp-player-position-2.png' | relative_url }}" class="img-fluid" />
 
 ## Handling of game commands
-In addition to the above-mentioned standard requests, the platform may send in-game commands that you can create in the developer's account on our website. They will be sent into the game from our control panel by the operator.
+In addition to the above-mentioned standard requests, the platform may send [in-game commands]({{ '/tabs/getting-started-adding-the-game/#in-game-commands' | relative_url }}) that you can create in the developer's account on our website. They will be sent into the game from our control panel by the operator.
 For example, on the website, you created a SkipTask command that skips tasks in the game.  To make sure that your game handles this command, you need to subscribe to messages from the platform and specify the handler that will execute SkipTask check.  
 ```c++
 #include "ARVIPlatformMessage.h"

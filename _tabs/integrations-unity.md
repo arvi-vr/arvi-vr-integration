@@ -108,7 +108,7 @@ protected void HandlePlayerPositionRequest(out Vector3 playerPosition, out Vecto
 ```
 
 ## Handling of game commands
-In addition to the above-mentioned standard requests, the platform may send in-game commands that you can create in the developer account on our website. They will be sent into the game from our control panel by the operator.
+In addition to the above-mentioned standard requests, the platform may send [in-game commands]({{ '/tabs/getting-started-adding-the-game/#in-game-commands' | relative_url }}) that you can create in the developer account on our website. They will be sent into the game from our control panel by the operator.
 For example, you created a Skip command that skips tasks in your game.  To make sure that your game handles this command, you need to subscribe to messages from the platform and specify the handler that will execute Skip check.
 ```cs
 using ARVI.SDK;
