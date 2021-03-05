@@ -1,3 +1,5 @@
+# The Site Configuration
+
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 title: Integration Guide                          # the main title
@@ -172,14 +174,16 @@ compress_html:
     envs: [development]
 
 exclude:
-  - .jekyll-cache
   - vendor
-  - Gemfile.lock
   - Gemfile
+  - Gemfile.lock
   - tools
   - docs
   - README.md
   - LICENSE
+  - node_modules
+  - package.json
+  - package-lock.json
 
 jekyll-archives:
   enabled: [categories, tags]
